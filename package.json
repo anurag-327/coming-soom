@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "next build && next export"
   },
   "dependencies": {
+    "@dotlottie/player-component": "^2.7.12",
+    "@lottiefiles/dotlottie-react": "^0.6.5",
+    "@lottiefiles/lottie-player": "^2.0.4",
+    "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
